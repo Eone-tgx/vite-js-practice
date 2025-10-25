@@ -1,0 +1,49 @@
+.form-nav-link {
+  margin: 15px auto;
+}
+
+.feedback-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 300px;
+  margin: 15px auto;
+}
+
+.feedback-form label {
+  display: flex;
+  flex-direction: column;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.feedback-form input,
+.feedback-form textarea {
+  width: 100%;
+  padding: 8px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  outline: none;
+  resize: none;
+}
+
+.feedback-form input:focus,
+.feedback-form textarea:focus {
+  border-color: #666;
+}
+
+.feedback-form button {
+  background-color: #6163dd;
+  color: white;
+  width: 95px;
+  padding: 10px;
+  font-size: 14px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.feedback-form button:hover {
+  background-color: #2563eb;
+}
