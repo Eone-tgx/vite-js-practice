@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/index.css" />
+    <title>Timer</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="title">Timer page</h1>
+
+      <ul class="nav-list">
+        <li class="list-button">
+          <a class="nav-link" href="./index.html">Home</a>
+        </li>
+        <li class="list-button">
+          <a class="nav-link" href="./1-gallery.html">Gallery</a>
+        </li>
+        <li class="list-button">
+          <a class="nav-link" href="./2-form.html">Form</a>
+        </li>
+        <li class="list-button">
+          <a class="nav-link" href="./4-snackbar.html">Promises</a>
+        </li>
+        <li class="list-button">
+          <a class="nav-link" href="./practice.html">Practice</a>
+        </li>
+      </ul>
+    </div>
+
+    <div class="timer-wrapper">
+      <input type="text" id="datetime-picker" />
+      <button type="button" data-start>Start</button>
+      <button type="button" data-stop>Stop</button>
+
+      <div class="timer">
+        <div class="field">
+          <span class="value" data-days>00</span>
+          <span class="label">Days</span>
+        </div>
+        <div class="field">
+          <span class="value" data-hours>00</span>
+          <span class="label">Hours</span>
+        </div>
+        <div class="field">
+          <span class="value" data-minutes>00</span>
+          <span class="label">Minutes</span>
+        </div>
+        <div class="field">
+          <span class="value" data-seconds>00</span>
+          <span class="label">Seconds</span>
+        </div>
+      </div>
+    </div>
+
+    <script type="module" src="./js/3-timer.js"></script>
+  </body>
+</html>
