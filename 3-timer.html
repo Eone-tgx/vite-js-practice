@@ -3,9 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-    <title>Document</title>
-    <script type="module" crossorigin src="/vite-js-practice/2-form.js"></script>
+    <title>Timer</title>
+    <script type="module" crossorigin src="/vite-js-practice/3-timer.js"></script>
     <link rel="modulepreload" crossorigin href="/vite-js-practice/assets/modulepreload-polyfill-B5Qt9EMX.js">
     <link rel="modulepreload" crossorigin href="/vite-js-practice/assets/vendor-BVf_Akzy.js">
     <link rel="stylesheet" crossorigin href="/vite-js-practice/assets/vendor-DvGpTLMc.css">
@@ -13,7 +12,7 @@
   </head>
   <body>
     <div class="container">
-      <h1 class="title">Form page</h1>
+      <h1 class="title">Timer page</h1>
 
       <ul class="nav-list">
         <li class="list-button">
@@ -23,7 +22,7 @@
           <a class="nav-link" href="./1-gallery.html">Gallery</a>
         </li>
         <li class="list-button">
-          <a class="nav-link" href="./3-timer.html">Timer</a>
+          <a class="nav-link" href="./2-form.html">Form</a>
         </li>
         <li class="list-button">
           <a class="nav-link" href="./4-snackbar.html">Promises</a>
@@ -32,18 +31,32 @@
           <a class="nav-link" href="./practice.html">Practice</a>
         </li>
       </ul>
-
-      <form class="feedback-form" autocomplete="off">
-        <label>
-          Email
-          <input type="email" name="email" autofocus />
-        </label>
-        <label>
-          Message
-          <textarea name="message" rows="8"></textarea>
-        </label>
-        <button class="form-btn" type="submit">Submit</button>
-      </form>
     </div>
+
+    <div class="timer-wrapper">
+      <input type="text" id="datetime-picker" />
+      <button type="button" data-start>Start</button>
+      <button type="button" data-stop>Stop</button>
+
+      <div class="timer">
+        <div class="field">
+          <span class="value" data-days>00</span>
+          <span class="label">Days</span>
+        </div>
+        <div class="field">
+          <span class="value" data-hours>00</span>
+          <span class="label">Hours</span>
+        </div>
+        <div class="field">
+          <span class="value" data-minutes>00</span>
+          <span class="label">Minutes</span>
+        </div>
+        <div class="field">
+          <span class="value" data-seconds>00</span>
+          <span class="label">Seconds</span>
+        </div>
+      </div>
+    </div>
+
   </body>
 </html>
