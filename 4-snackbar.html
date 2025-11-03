@@ -4,8 +4,11 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Promises</title>
-    <script type="module" crossorigin src="/vite-js-practice/assets/modulepreload-polyfill-B5Qt9EMX.js"></script>
-    <link rel="stylesheet" crossorigin href="/vite-js-practice/assets/index-Czygxt-K.css">
+    <script type="module" crossorigin src="/vite-js-practice/4-snackbar.js"></script>
+    <link rel="modulepreload" crossorigin href="/vite-js-practice/assets/modulepreload-polyfill-B5Qt9EMX.js">
+    <link rel="modulepreload" crossorigin href="/vite-js-practice/assets/vendor-CiVPaQfJ.js">
+    <link rel="stylesheet" crossorigin href="/vite-js-practice/assets/vendor-BdEyU4FM.css">
+    <link rel="stylesheet" crossorigin href="/vite-js-practice/assets/index-WpzQfjEu.css">
   </head>
   <body>
     <div class="container">
@@ -28,6 +31,27 @@
           <a class="nav-link" href="./practice.html">Practice</a>
         </li>
       </ul>
+
+      <form class="form">
+        <label>
+          Delay (ms)
+          <input type="number" name="delay" required />
+        </label>
+
+        <fieldset>
+          <legend>State</legend>
+          <label>
+            <input type="radio" name="state" value="fulfilled" required />
+            Fulfilled
+          </label>
+          <label>
+            <input type="radio" name="state" value="rejected" required />
+            Rejected
+          </label>
+        </fieldset>
+
+        <button type="submit">Create notification</button>
+      </form>
     </div>
 
   </body>
