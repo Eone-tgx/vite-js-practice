@@ -10,6 +10,10 @@ body {
   color: #000000;
   margin: 0;
   background-image: url('/img/compressed_pexels-elina-araja.webp');
+  background-size: cover; /* щоб картинка заповнювала екран */
+  background-position: center; /* щоб була по центру */
+  background-repeat: no-repeat; /* щоб не повторювалася */
+  background-attachment: fixed;
 }
 
 h1,
