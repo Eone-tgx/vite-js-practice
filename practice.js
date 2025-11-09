@@ -1,2 +1,0 @@
-import"./assets/modulepreload-polyfill-B5Qt9EMX.js";/* empty css                     */const o=({value:e,delay:l,shouldResolve:c=!0})=>new Promise((n,t)=>{setTimeout(()=>{c?n(e):t(e)},l)});o({value:"A",delay:1e3}).then(e=>console.log(e)).catch(e=>console.log(e));o({value:"B",delay:3e3}).then(e=>console.log(e)).catch(e=>console.log(e));o({value:"null",delay:2e3}).then(e=>console.log(e)).catch(e=>console.error(e));
-//# sourceMappingURL=practice.js.map
