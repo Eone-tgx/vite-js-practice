@@ -4,15 +4,18 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./css/index.css" />
-    <title>Document</title>
+    <title>Practice</title>
   </head>
   <body>
     <div class="container">
-      <h1 class="title">Gallery page</h1>
+      <h1 class="title">Practice page</h1>
 
       <ul class="nav-list">
         <li class="list-button">
           <a class="nav-link" href="./index.html">Home</a>
+        </li>
+        <li class="list-button">
+          <a class="nav-link" href="./1-gallery.html">Gallery</a>
         </li>
         <li class="list-button">
           <a class="nav-link" href="./2-form.html">Form</a>
@@ -23,17 +26,15 @@
         <li class="list-button">
           <a class="nav-link" href="./4-snackbar.html">Promises</a>
         </li>
-        <li class="list-button">
-          <a class="nav-link" href="./pixabay.html">Pixabay</a>
-        </li>
-        <li class="list-button">
-          <a class="nav-link" href="./practice.html">Practice</a>
-        </li>
       </ul>
 
-      <ul class="gallery"></ul>
-    </div>
+      <div class="input-container">
+        <input type="text" class="input-js" />
+        <button type="button" class="btn-add">Add todo</button>
+      </div>
 
-    <script type="module" src="./js/1-gallery.js"></script>
+      <ul class="todo-list"></ul>
+    </div>
+    <script type="module" src="./js/practice.js"></script>
   </body>
 </html>

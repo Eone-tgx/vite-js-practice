@@ -1,0 +1,51 @@
+.input-container {
+  margin-top: 100px;
+}
+
+.input-js {
+  width: 200px;
+  height: 30px;
+  border: none;
+}
+
+.btn-add {
+  width: 100px;
+}
+
+.todo-list {
+  display: flex;
+  flex-direction: column;
+  margin: 30px auto;
+}
+
+.todo-list-item {
+  display: flex;
+  align-items: center;
+  width: 300px;
+  height: 25px;
+  background-color: #f82828;
+  border-radius: 20px;
+  padding: 10px 10px;
+}
+
+.todo-list-item-done {
+  display: flex;
+  align-items: center;
+  width: 300px;
+  height: 25px;
+  background-color: #28f855;
+  border-radius: 20px;
+  padding: 10px 10px;
+}
+
+.btn-update {
+  width: 15%;
+  padding: 0;
+  margin-left: auto;
+}
+
+.btn-delete {
+  width: 15%;
+  padding: 0;
+  margin-left: auto;
+}

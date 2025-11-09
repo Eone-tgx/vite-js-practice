@@ -2,6 +2,8 @@
 @import url('./form.css');
 @import url('./timer.css');
 @import url('./snackbar.css');
+@import url('./practice.css');
+@import url('./pixabay.css');
 
 body {
   font-family: 'Roboto', sans-serif;

@@ -53,7 +53,7 @@ function startTimer() {
 
   iziToast.success({
     title: 'Success',
-    message: 'Countdown is started',
+    message: 'Timer is started',
     timeout: 2000,
     position: 'topRight',
   });
